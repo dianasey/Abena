@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+box-sizing: border-box
 }
 
 body{
@@ -96,4 +96,88 @@ border-radius: 5px;
         background: blueviolet;
       }
 
+      
+      /* section: what we do */
+      .items{
+        display: flex;
+        padding: 1rem;
+      }
+
+      #what .items .item{
+        flex: 1;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      #what .items .item i{
+        background: purple;
+        color: whitesmoke;
+        padding: 1rem;
+        border-radius: 50%;
+      }
+
+      #who{
+        display: flex;
+      }
+
+      #who div{
+        flex: 1rem;
+      }
+      #who .who-img{
+      background: url("../img/img-2.jpg") no-repeat center center/cover;
+      }
+
+      .bg-light{
+        background: cadetblue;
+        color: aliceblue;
+      }
+
+      .bg-dark{
+        color: white;
+        background: #333;
+      }
+
+      .p-1{
+        padding: 1.5rem;
+      }
+
+      .p-2{
+        padding: 2rem;
+      }
+      .p-3{
+        padding: 3rem;
+      }
+
+      .list{
+        margin: 0.5rem 0;
+        list-style: none;
+      }
+
+      .list li{
+       padding: 0.5rem 0;
+       border-bottom: #444 dotted 1px;
+      }
+
+      /* Clients */
+      #clients{
+        display: flex;
+      }
+
+      #clients .items i{
+        display: block;
+        margin: auto;
+        width: 1px;
+        height: 2px;
+        color: purple;
+      }
+     
+      
+     
+    
+
+
+
+
+        
+    
      
